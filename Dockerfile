@@ -1,4 +1,7 @@
-FROM ubuntu:16.04
+ARG fromTag=bionic-run
+ARG imageRepo=balenalib/raspberrypi3-ubuntu
+
+FROM ${imageRepo}:${fromTag} AS installer-env
 
 ARG S6_OVERLAY_VERSION=v1.22.1.0
 ARG S6_OVERLAY_ARCH=armhf
