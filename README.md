@@ -1,4 +1,10 @@
-# Official Docker container for Plex Media Server
+# Forked from the Official Docker container for Plex Media Server
+
+Plex Media Server official image refocused for Raspberry Pi.
+It is a fork of the official Plex Docker image but with an actually working ARM v7 build.
+See the original Plex Docker GitHub page for documentation: https://github.com/plexinc/pms-docker
+ 
+# The Offical Documentation
 
 # plexinc/pms-docker
 
@@ -30,7 +36,7 @@ docker run \
 -v <path/to/plex/database>:/config \
 -v <path/to/transcode/temp>:/transcode \
 -v <path/to/media>:/data \
-plexinc/pms-docker
+balintbako/plex
 ```
 
 ### Macvlan Networking
@@ -47,7 +53,7 @@ docker run \
 -v <path/to/plex/database>:/config \
 -v <path/to/transcode/temp>:/transcode \
 -v <path/to/media>:/data \
-plexinc/pms-docker
+balintbako/plex
 ```
 
 Similar to `Host Networking` above with these changes:
@@ -78,7 +84,7 @@ docker run \
 -v <path/to/plex/database>:/config \
 -v <path/to/transcode/temp>:/transcode \
 -v <path/to/media>:/data \
-plexinc/pms-docker
+balintbako/plex
 ```
 
 Note: In this configuration, you must do some additional configuration:
