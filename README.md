@@ -1,7 +1,6 @@
-# Forked from the Official Docker container for Plex Media Server
+# Plex Media Server official image refocused for Raspberry Pi
 
-Plex Media Server official image refocused for Raspberry Pi.
-It is a fork of the official Plex Docker image but with an actually working ARM v7 build.
+Forked from the Official Docker container for Plex Media Server and updated to have an actually working ARM v7 build.
 See the original Plex Docker GitHub page for documentation: https://github.com/plexinc/pms-docker
  
 # The Offical Documentation

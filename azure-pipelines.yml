@@ -22,6 +22,7 @@ stages:
       latest
       armv7
       armhf
+      raspberrypi3-ubuntu
       ubuntu-16-latest
       ubuntu-16.04
       plex-latest
